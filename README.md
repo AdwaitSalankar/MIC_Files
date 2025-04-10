@@ -2,6 +2,12 @@
 
 This project extracts structured information from news articles related to **(MIC)** — including **event date**, **countries involved**, and **fatality counts** — using a fine-tuned BERT model.
 
+The `MIC_Model_Script` directory contains the `main.py` file, which serves as the main script.
+
+To test the model on different data, simply replace the `MIC_Dataset` folder with your own data organized in the same year-based folder structure.
+
+Alternatively, you can use this `Colab notebook` for a no-setup run: [Colab Notebook](https://colab.research.google.com/drive/1GOfUFwdlnhcXQ0e1cVGIi_i-kpCBP78-?usp=sharing)
+
 ---
 
 ## Folder Structure
