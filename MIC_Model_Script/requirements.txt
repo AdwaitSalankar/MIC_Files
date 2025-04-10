@@ -1,0 +1,6 @@
+pandas
+nltk
+spacy
+transformers
+word2number
+gdown
