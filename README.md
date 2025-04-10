@@ -27,11 +27,11 @@ Alternatively, you can use this `Colab notebook` for a no-setup run: [Colab Note
 
 ---
 
-## Pretrained Model
+## Fine-tuned Model
 The fine-tuned model used for extracting conflict information is on Google Drive. It will be automatically downloaded and extracted during the first run of the script.
 
 Link:
-[Pretrained model on Google Drive](https://drive.google.com/drive/folders/17zm1pC4VyzDt-sKau_O4rJio6q1ENtlh?usp=sharing)
+[Google Drive](https://drive.google.com/drive/folders/17zm1pC4VyzDt-sKau_O4rJio6q1ENtlh?usp=sharing)
 
 ---
 
@@ -40,17 +40,18 @@ Link:
 ```bash
 cd MIC_Model_Script
 ```
-```bash
-python main.py
-```
-Install dependencies with:
 
+Install dependencies with:
 ```bash
 pip install -r requirements.txt
 ```
 After installation:
 ```bash
 python -m spacy download en_core_web_sm
+```
+
+```bash
+python main.py
 ```
 The script will:
 1. Download and unzip the model
